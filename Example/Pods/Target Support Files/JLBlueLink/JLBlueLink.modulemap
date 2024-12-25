@@ -1,0 +1,6 @@
+framework module JLBlueLink {
+  umbrella header "JLBlueLink-umbrella.h"
+
+  export *
+  module * { export * }
+}
