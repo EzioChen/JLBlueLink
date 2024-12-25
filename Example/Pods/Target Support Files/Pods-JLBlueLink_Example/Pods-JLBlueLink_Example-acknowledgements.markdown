@@ -3,7 +3,7 @@ This application makes use of the following third party libraries:
 
 ## JLBlueLink
 
-Copyright (c) 2024 16433934 <jackenwind@163.com>
+Copyright (c) 2024 EzioChan <chenguanjie@zh-jieli.com>
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal

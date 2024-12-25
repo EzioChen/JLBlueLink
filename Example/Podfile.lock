@@ -1,5 +1,5 @@
 PODS:
-  - JLBlueLink (0.1.0)
+  - JLBlueLink (1.0.0)
 
 DEPENDENCIES:
   - JLBlueLink (from `../`)
@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  JLBlueLink: e5e466dad1bd46cac4486aabf8360635d49a4467
+  JLBlueLink: 63543d535735403068fff1c924ea9dd7d765b872
 
 PODFILE CHECKSUM: d65de53b030ac658563a865548c91e6e5ad013da
 

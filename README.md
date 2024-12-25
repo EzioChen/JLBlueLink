@@ -22,7 +22,7 @@ pod 'JLBlueLink'
 
 ## Author
 
-16433934, jackenwind@163.com
+chenguanjie@zh-jieli.com
 
 ## License
 

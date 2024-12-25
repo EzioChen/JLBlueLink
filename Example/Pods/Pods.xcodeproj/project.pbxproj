@@ -7,27 +7,29 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		051B37FFD807CC90BEC2D207D10E37ED /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A577FE2EC0DAB795BE6AAC933063B1B4 /* UIKit.framework */; };
+		06824DA64F995B4F9A0F4A93AB5156ED /* JLBlueLink-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C81A8869979167F296562BEA97CAEA13 /* JLBlueLink-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0BB5403F9BC9891AC620ED75A8BD0D67 /* CoreBluetooth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 959277E27A8D56122992712EBE9314DF /* CoreBluetooth.framework */; };
 		0D74A099A5B730FBF0B35302E29AE092 /* Pods-JLBlueLink_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D73A53800E8318A84CC78A547A4C4F50 /* Pods-JLBlueLink_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		17B14EA3293D008058E702DEA2DF0B8D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 384DDA2CB25005BD6479B5987C619DD4 /* Foundation.framework */; };
-		3330F72802CAC8240228AFADF8378D2C /* JLBlueLink-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D5C52FB11F7B9E8868B9307D199540E7 /* JLBlueLink-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		939CE7803F270DB706F9233972428F05 /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD1A5A8BD23F11DC6204578DDDC23E21 /* ReplaceMe.swift */; };
-		9CCAEBA4709F59155BA0D67550BC4057 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 384DDA2CB25005BD6479B5987C619DD4 /* Foundation.framework */; };
+		17B14EA3293D008058E702DEA2DF0B8D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 29E3862C4FD0168791FB3FB16DD697AC /* Foundation.framework */; };
+		927AA4543B5963F6327BCBFB04431D90 /* JLBlueLink.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96BB8FE40E769A6E3497DC5F1824E8B4 /* JLBlueLink.swift */; };
+		9CCAEBA4709F59155BA0D67550BC4057 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 29E3862C4FD0168791FB3FB16DD697AC /* Foundation.framework */; };
 		A3172340DCD75268EF7BA820CE8CA4BF /* Pods-JLBlueLink_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 36ECF7352E1A766BE1493CBF8698B9D0 /* Pods-JLBlueLink_Tests-dummy.m */; };
 		A3346A9395A4DFBDB5DC76A48EBA85F5 /* Pods-JLBlueLink_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6A4C78E06D0EEDA1C6E8F2F4CC1F7A40 /* Pods-JLBlueLink_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		B5620EED82D2BD295ECD3D72FD9A8367 /* JLBlueLink-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A7B15A7F6C93F6C463BE0FC55D289DFB /* JLBlueLink-dummy.m */; };
-		CBFD5EE74AE557CEE81C64597EB3B297 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 384DDA2CB25005BD6479B5987C619DD4 /* Foundation.framework */; };
+		C13D3E4AC85A5A7F07A970E883832CEC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 29E3862C4FD0168791FB3FB16DD697AC /* Foundation.framework */; };
+		ED1658DCC851DBAB4BDDECC565E3080B /* JLBlueLink-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C78DBF4DA5D3BADE6CD0199B5C6BE5D /* JLBlueLink-dummy.m */; };
 		FFDA68132C14BCA95C5559E7C037902A /* Pods-JLBlueLink_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 814E8B159C3A4B976284DE7D98901F4C /* Pods-JLBlueLink_Example-dummy.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		17C9F9554B0202A616F3A337FAB991D2 /* PBXContainerItemProxy */ = {
+		480F77ECBC43C7EDE38BCEBF40EC0184 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = E5164A3BC136F3EAE1B3995D79ADEF38;
 			remoteInfo = JLBlueLink;
 		};
-		DDC9A3FD3570BA577F763F821344E5DB /* PBXContainerItemProxy */ = {
+		B0FF75BC5B3F03930EEC7A57508392E8 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
@@ -37,47 +39,59 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		14E2B8D7ADCC8940BBDEE56EB7D4355A /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
-		203A1C93BB0B6864EAF72859462DB853 /* JLBlueLink.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = JLBlueLink.release.xcconfig; sourceTree = "<group>"; };
-		23E1D5562CAC4E280B93E5D7F39D5C6A /* JLBlueLink.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = JLBlueLink.debug.xcconfig; sourceTree = "<group>"; };
+		02B12CA25E674CA8BC8C930CF9853222 /* JLBlueLink.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = JLBlueLink.modulemap; sourceTree = "<group>"; };
+		0646979D4B05972963E64E72E13110A7 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		071EED34E4944062B9597E084A01721E /* JLBmpConvertKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JLBmpConvertKit.framework; path = JLBlueLink/Frameworks/JLBmpConvertKit.framework; sourceTree = "<group>"; };
+		088E0186F77300CF5D0382638F29424B /* JLBlueLink.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = JLBlueLink.debug.xcconfig; sourceTree = "<group>"; };
+		0C78DBF4DA5D3BADE6CD0199B5C6BE5D /* JLBlueLink-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "JLBlueLink-dummy.m"; sourceTree = "<group>"; };
 		244BDAA42B9D2ADB628DDE6B8158084E /* Pods-JLBlueLink_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-JLBlueLink_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		2701B99C3C40D1496F2B790F54748163 /* JLBlueLink-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "JLBlueLink-Info.plist"; sourceTree = "<group>"; };
+		29E3862C4FD0168791FB3FB16DD697AC /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS18.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		2E59983BDA569E81C0BC5877C568ADD6 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		36ECF7352E1A766BE1493CBF8698B9D0 /* Pods-JLBlueLink_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-JLBlueLink_Tests-dummy.m"; sourceTree = "<group>"; };
-		384DDA2CB25005BD6479B5987C619DD4 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS18.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		373754FE322F38E29288F0AC29B83CBC /* JLBlueLink.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = JLBlueLink.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		39245856D5705CCF73ACB2A23DE61503 /* Pods-JLBlueLink_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-JLBlueLink_Example-Info.plist"; sourceTree = "<group>"; };
 		43FFEEAE08CD94167FDB2B8D489E7ED0 /* Pods-JLBlueLink_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-JLBlueLink_Tests.modulemap"; sourceTree = "<group>"; };
+		48F7D2916BE86303E35DC4BB3C8C5DCB /* JLBlueLink-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "JLBlueLink-Info.plist"; sourceTree = "<group>"; };
 		4E2D768430FC09BE1D515BB3C0D52A2B /* Pods-JLBlueLink_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-JLBlueLink_Example-frameworks.sh"; sourceTree = "<group>"; };
+		4EE7EDEECAD3C9143F0DEDEA80766B19 /* JLWtsToCfgLib.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JLWtsToCfgLib.framework; path = JLBlueLink/Frameworks/JLWtsToCfgLib.framework; sourceTree = "<group>"; };
+		585BA713A543A8670667B37574B2D9DF /* JLDialUnit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JLDialUnit.framework; path = JLBlueLink/Frameworks/JLDialUnit.framework; sourceTree = "<group>"; };
 		58AF7B198A8AF04BAB6771A524FE19CB /* Pods-JLBlueLink_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JLBlueLink_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		5981913248CB2644F172EAE9AB1C18A6 /* Pods-JLBlueLink_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-JLBlueLink_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		6469ED6A5DC463F8F38F7455214A18BF /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		66C8335ED091AD607961E1101FAB949D /* JLLogHelper.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JLLogHelper.framework; path = JLBlueLink/Frameworks/JLLogHelper.framework; sourceTree = "<group>"; };
 		6A4C78E06D0EEDA1C6E8F2F4CC1F7A40 /* Pods-JLBlueLink_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-JLBlueLink_Example-umbrella.h"; sourceTree = "<group>"; };
+		79DF62C7E148AF57DFDDA3E7F0EA917E /* JLBlueLink-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JLBlueLink-prefix.pch"; sourceTree = "<group>"; };
 		7A702E7F97AC8AB7C67B68B897C62B1D /* JLBlueLink */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = JLBlueLink; path = JLBlueLink.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7EA50F0B0AB7978262C7765E25505A1D /* JLBlueLink.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = JLBlueLink.release.xcconfig; sourceTree = "<group>"; };
 		814E8B159C3A4B976284DE7D98901F4C /* Pods-JLBlueLink_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-JLBlueLink_Example-dummy.m"; sourceTree = "<group>"; };
-		87B6D051C29B4AA33482068CFD1156B3 /* JLBlueLink.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = JLBlueLink.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		959277E27A8D56122992712EBE9314DF /* CoreBluetooth.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreBluetooth.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS18.0.sdk/System/Library/Frameworks/CoreBluetooth.framework; sourceTree = DEVELOPER_DIR; };
+		96BB8FE40E769A6E3497DC5F1824E8B4 /* JLBlueLink.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = JLBlueLink.swift; path = JLBlueLink/Classes/JLBlueLink.swift; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		A7B15A7F6C93F6C463BE0FC55D289DFB /* JLBlueLink-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "JLBlueLink-dummy.m"; sourceTree = "<group>"; };
-		A7E841BEA1F4221C02C79338B04F9CA7 /* JLBlueLink.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = JLBlueLink.modulemap; sourceTree = "<group>"; };
+		A1594ACF2A12AAB29E7A6764F44E0EE5 /* JL_HashPair.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JL_HashPair.framework; path = JLBlueLink/Frameworks/JL_HashPair.framework; sourceTree = "<group>"; };
+		A577FE2EC0DAB795BE6AAC933063B1B4 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS18.0.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
 		C5DB6F0691E39E144C28F2F26BE1624E /* Pods-JLBlueLink_Example */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-JLBlueLink_Example"; path = Pods_JLBlueLink_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C787A74BEEE6C3FFE8FCA75B4613F256 /* Pods-JLBlueLink_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JLBlueLink_Example.release.xcconfig"; sourceTree = "<group>"; };
+		C81A8869979167F296562BEA97CAEA13 /* JLBlueLink-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JLBlueLink-umbrella.h"; sourceTree = "<group>"; };
 		C9580240E99088D3BE82B7D77DC51661 /* Pods-JLBlueLink_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-JLBlueLink_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		CCB4ED4DCFAEDA2AB4A7B1611D78CB32 /* JLBlueLink-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JLBlueLink-prefix.pch"; sourceTree = "<group>"; };
-		CD1A5A8BD23F11DC6204578DDDC23E21 /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = JLBlueLink/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
-		D5C52FB11F7B9E8868B9307D199540E7 /* JLBlueLink-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JLBlueLink-umbrella.h"; sourceTree = "<group>"; };
+		CE38E94336C1006A7F164E6B6CF6DBDF /* JL_AdvParse.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JL_AdvParse.framework; path = JLBlueLink/Frameworks/JL_AdvParse.framework; sourceTree = "<group>"; };
 		D73A53800E8318A84CC78A547A4C4F50 /* Pods-JLBlueLink_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-JLBlueLink_Tests-umbrella.h"; sourceTree = "<group>"; };
 		D796022909DC1564B8CF3E7A8CAE784B /* Pods-JLBlueLink_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JLBlueLink_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		DE3A71D7F3ADF48A3A61982C830B26F4 /* JL_BLEKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JL_BLEKit.framework; path = JLBlueLink/Frameworks/JL_BLEKit.framework; sourceTree = "<group>"; };
 		DF1FB94FA80463A2DB6D0D2344BBAA27 /* Pods-JLBlueLink_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-JLBlueLink_Tests-Info.plist"; sourceTree = "<group>"; };
 		E3193DB685B0FBF4F041593A6C77CE39 /* Pods-JLBlueLink_Tests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-JLBlueLink_Tests"; path = Pods_JLBlueLink_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F0CD9A414BA04C9751C69197D1F70FC4 /* Pods-JLBlueLink_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JLBlueLink_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		F63E7F0579F460332BA2E26E9334C5CF /* Pods-JLBlueLink_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-JLBlueLink_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		F6A85AA27B7586D8EE4578FF78A05BF8 /* Pods-JLBlueLink_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-JLBlueLink_Example.modulemap"; sourceTree = "<group>"; };
+		FEADE39DE66B78BA84E91EFCE4BE9DDB /* JL_OTALib.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JL_OTALib.framework; path = JLBlueLink/Frameworks/JL_OTALib.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		7127D10EDB6BD2ABED9CA14905C6B9B5 /* Frameworks */ = {
+		642B55522F5915A342711CFD8F104974 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CBFD5EE74AE557CEE81C64597EB3B297 /* Foundation.framework in Frameworks */,
+				0BB5403F9BC9891AC620ED75A8BD0D67 /* CoreBluetooth.framework in Frameworks */,
+				C13D3E4AC85A5A7F07A970E883832CEC /* Foundation.framework in Frameworks */,
+				051B37FFD807CC90BEC2D207D10E37ED /* UIKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -100,15 +114,12 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		1CF117AADBFEECFDA051B9770DFB57BD /* JLBlueLink */ = {
+		03C5C200A0787E300053CFA8F53CA094 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				CD1A5A8BD23F11DC6204578DDDC23E21 /* ReplaceMe.swift */,
-				D07927054AEA93A819FB5013D2C85696 /* Pod */,
-				82980ED8DDCE8AA9979FE6822AD4420C /* Support Files */,
+				94404EFB56728D9AA0A36CAE12C2249F /* iOS */,
 			);
-			name = JLBlueLink;
-			path = ../..;
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 		32D8A0C4E1C398BE67305B99CB4DFCDB /* Targets Support Files */ = {
@@ -118,6 +129,16 @@
 				FB3017D1B909574E7A7EAFBB65D96F7E /* Pods-JLBlueLink_Tests */,
 			);
 			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		4FF18F5524B5F5982953BB5D6089F1D6 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				373754FE322F38E29288F0AC29B83CBC /* JLBlueLink.podspec */,
+				0646979D4B05972963E64E72E13110A7 /* LICENSE */,
+				2E59983BDA569E81C0BC5877C568ADD6 /* README.md */,
+			);
+			name = Pod;
 			sourceTree = "<group>";
 		};
 		5C4AC864E7AF3F87EF29351E2E44E165 /* Products */ = {
@@ -130,64 +151,75 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		7175959EFAA0C183D2CB26ED8016D7F8 /* Development Pods */ = {
+		5D5E2050E44F93CBE4765052885B4B4E /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				1CF117AADBFEECFDA051B9770DFB57BD /* JLBlueLink */,
+				62AEDA8F821C10C9A33A64525BF02638 /* JLBlueLink */,
 			);
 			name = "Development Pods";
 			sourceTree = "<group>";
 		};
-		82980ED8DDCE8AA9979FE6822AD4420C /* Support Files */ = {
+		62AEDA8F821C10C9A33A64525BF02638 /* JLBlueLink */ = {
 			isa = PBXGroup;
 			children = (
-				A7E841BEA1F4221C02C79338B04F9CA7 /* JLBlueLink.modulemap */,
-				A7B15A7F6C93F6C463BE0FC55D289DFB /* JLBlueLink-dummy.m */,
-				2701B99C3C40D1496F2B790F54748163 /* JLBlueLink-Info.plist */,
-				CCB4ED4DCFAEDA2AB4A7B1611D78CB32 /* JLBlueLink-prefix.pch */,
-				D5C52FB11F7B9E8868B9307D199540E7 /* JLBlueLink-umbrella.h */,
-				23E1D5562CAC4E280B93E5D7F39D5C6A /* JLBlueLink.debug.xcconfig */,
-				203A1C93BB0B6864EAF72859462DB853 /* JLBlueLink.release.xcconfig */,
+				96BB8FE40E769A6E3497DC5F1824E8B4 /* JLBlueLink.swift */,
+				7BEEBEB6B470EC4E7C72966A6161F0A0 /* Frameworks */,
+				4FF18F5524B5F5982953BB5D6089F1D6 /* Pod */,
+				F1D0E2EE0DC0037F6A2C92067642FC30 /* Support Files */,
 			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/JLBlueLink";
+			name = JLBlueLink;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		7BEEBEB6B470EC4E7C72966A6161F0A0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CE38E94336C1006A7F164E6B6CF6DBDF /* JL_AdvParse.framework */,
+				DE3A71D7F3ADF48A3A61982C830B26F4 /* JL_BLEKit.framework */,
+				A1594ACF2A12AAB29E7A6764F44E0EE5 /* JL_HashPair.framework */,
+				FEADE39DE66B78BA84E91EFCE4BE9DDB /* JL_OTALib.framework */,
+				071EED34E4944062B9597E084A01721E /* JLBmpConvertKit.framework */,
+				585BA713A543A8670667B37574B2D9DF /* JLDialUnit.framework */,
+				66C8335ED091AD607961E1101FAB949D /* JLLogHelper.framework */,
+				4EE7EDEECAD3C9143F0DEDEA80766B19 /* JLWtsToCfgLib.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		94404EFB56728D9AA0A36CAE12C2249F /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				959277E27A8D56122992712EBE9314DF /* CoreBluetooth.framework */,
+				29E3862C4FD0168791FB3FB16DD697AC /* Foundation.framework */,
+				A577FE2EC0DAB795BE6AAC933063B1B4 /* UIKit.framework */,
+			);
+			name = iOS;
 			sourceTree = "<group>";
 		};
 		CF1408CF629C7361332E53B88F7BD30C = {
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
-				7175959EFAA0C183D2CB26ED8016D7F8 /* Development Pods */,
-				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				5D5E2050E44F93CBE4765052885B4B4E /* Development Pods */,
+				03C5C200A0787E300053CFA8F53CA094 /* Frameworks */,
 				5C4AC864E7AF3F87EF29351E2E44E165 /* Products */,
 				32D8A0C4E1C398BE67305B99CB4DFCDB /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
-		D07927054AEA93A819FB5013D2C85696 /* Pod */ = {
+		F1D0E2EE0DC0037F6A2C92067642FC30 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				87B6D051C29B4AA33482068CFD1156B3 /* JLBlueLink.podspec */,
-				14E2B8D7ADCC8940BBDEE56EB7D4355A /* LICENSE */,
-				6469ED6A5DC463F8F38F7455214A18BF /* README.md */,
+				02B12CA25E674CA8BC8C930CF9853222 /* JLBlueLink.modulemap */,
+				0C78DBF4DA5D3BADE6CD0199B5C6BE5D /* JLBlueLink-dummy.m */,
+				48F7D2916BE86303E35DC4BB3C8C5DCB /* JLBlueLink-Info.plist */,
+				79DF62C7E148AF57DFDDA3E7F0EA917E /* JLBlueLink-prefix.pch */,
+				C81A8869979167F296562BEA97CAEA13 /* JLBlueLink-umbrella.h */,
+				088E0186F77300CF5D0382638F29424B /* JLBlueLink.debug.xcconfig */,
+				7EA50F0B0AB7978262C7765E25505A1D /* JLBlueLink.release.xcconfig */,
 			);
-			name = Pod;
-			sourceTree = "<group>";
-		};
-		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				E4801F62A6B08CD9B5410329F1A18FDE /* iOS */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		E4801F62A6B08CD9B5410329F1A18FDE /* iOS */ = {
-			isa = PBXGroup;
-			children = (
-				384DDA2CB25005BD6479B5987C619DD4 /* Foundation.framework */,
-			);
-			name = iOS;
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/JLBlueLink";
 			sourceTree = "<group>";
 		};
 		FB3017D1B909574E7A7EAFBB65D96F7E /* Pods-JLBlueLink_Tests */ = {
@@ -226,11 +258,11 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		457E7C5AE4DA258D0E4ACFD68E996C9A /* Headers */ = {
+		00334D44710F39097FBE3A91A6485C6A /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3330F72802CAC8240228AFADF8378D2C /* JLBlueLink-umbrella.h in Headers */,
+				06824DA64F995B4F9A0F4A93AB5156ED /* JLBlueLink-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -265,7 +297,7 @@
 			buildRules = (
 			);
 			dependencies = (
-				B334CB2E652FC4B1C36252EF94EAA3CE /* PBXTargetDependency */,
+				5CB0DFA7C15FEE6B9CB9DB42D1474B32 /* PBXTargetDependency */,
 			);
 			name = "Pods-JLBlueLink_Tests";
 			productName = Pods_JLBlueLink_Tests;
@@ -284,7 +316,7 @@
 			buildRules = (
 			);
 			dependencies = (
-				5F5DF4A5D076CC81411D8BDB7796D4A7 /* PBXTargetDependency */,
+				1624CB4898B1051D4230810CB49CD5D5 /* PBXTargetDependency */,
 			);
 			name = "Pods-JLBlueLink_Example";
 			productName = Pods_JLBlueLink_Example;
@@ -293,12 +325,12 @@
 		};
 		E5164A3BC136F3EAE1B3995D79ADEF38 /* JLBlueLink */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = A0049ED65301C2240F55A1F4BE37CC5A /* Build configuration list for PBXNativeTarget "JLBlueLink" */;
+			buildConfigurationList = 4005AEA08EC1F55DB3C7C8A3B566BA4E /* Build configuration list for PBXNativeTarget "JLBlueLink" */;
 			buildPhases = (
-				457E7C5AE4DA258D0E4ACFD68E996C9A /* Headers */,
-				DC90A2B67C078BE3261B63AF037852BE /* Sources */,
-				7127D10EDB6BD2ABED9CA14905C6B9B5 /* Frameworks */,
-				59CEBBBA589AF07E985315893DAF8856 /* Resources */,
+				00334D44710F39097FBE3A91A6485C6A /* Headers */,
+				6E6358C5A5413063D637673A3D4E48CA /* Sources */,
+				642B55522F5915A342711CFD8F104974 /* Frameworks */,
+				6234AB79AC2C8A14A673594C97B6F2E7 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -341,7 +373,7 @@
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		59CEBBBA589AF07E985315893DAF8856 /* Resources */ = {
+		6234AB79AC2C8A14A673594C97B6F2E7 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -373,6 +405,15 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		6E6358C5A5413063D637673A3D4E48CA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				927AA4543B5963F6327BCBFB04431D90 /* JLBlueLink.swift in Sources */,
+				ED1658DCC851DBAB4BDDECC565E3080B /* JLBlueLink-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		73CC98A64B26DC8AF82985F17CDAEAEC /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -381,29 +422,20 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		DC90A2B67C078BE3261B63AF037852BE /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				B5620EED82D2BD295ECD3D72FD9A8367 /* JLBlueLink-dummy.m in Sources */,
-				939CE7803F270DB706F9233972428F05 /* ReplaceMe.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		5F5DF4A5D076CC81411D8BDB7796D4A7 /* PBXTargetDependency */ = {
+		1624CB4898B1051D4230810CB49CD5D5 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = JLBlueLink;
 			target = E5164A3BC136F3EAE1B3995D79ADEF38 /* JLBlueLink */;
-			targetProxy = 17C9F9554B0202A616F3A337FAB991D2 /* PBXContainerItemProxy */;
+			targetProxy = 480F77ECBC43C7EDE38BCEBF40EC0184 /* PBXContainerItemProxy */;
 		};
-		B334CB2E652FC4B1C36252EF94EAA3CE /* PBXTargetDependency */ = {
+		5CB0DFA7C15FEE6B9CB9DB42D1474B32 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "Pods-JLBlueLink_Example";
 			target = 8858F6E7B1C0A002192FC60ACA58874C /* Pods-JLBlueLink_Example */;
-			targetProxy = DDC9A3FD3570BA577F763F821344E5DB /* PBXContainerItemProxy */;
+			targetProxy = B0FF75BC5B3F03930EEC7A57508392E8 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -444,6 +476,42 @@
 			};
 			name = Release;
 		};
+		40107406C248D7450B44DBC4EFDF6D11 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7EA50F0B0AB7978262C7765E25505A1D /* JLBlueLink.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = NO;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GCC_PREFIX_HEADER = "Target Support Files/JLBlueLink/JLBlueLink-prefix.pch";
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = "Target Support Files/JLBlueLink/JLBlueLink-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/JLBlueLink/JLBlueLink.modulemap";
+				PRODUCT_MODULE_NAME = JLBlueLink;
+				PRODUCT_NAME = JLBlueLink;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_INSTALL_OBJC_HEADER = YES;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 		44A62CC4B6DDC30417F3B120143DC038 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 58AF7B198A8AF04BAB6771A524FE19CB /* Pods-JLBlueLink_Tests.release.xcconfig */;
@@ -473,42 +541,6 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		79A8A0D8E816292254BC91D347EE3551 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 203A1C93BB0B6864EAF72859462DB853 /* JLBlueLink.release.xcconfig */;
-			buildSettings = {
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_MODULE_VERIFIER = NO;
-				ENABLE_USER_SCRIPT_SANDBOXING = NO;
-				GCC_PREFIX_HEADER = "Target Support Files/JLBlueLink/JLBlueLink-prefix.pch";
-				GENERATE_INFOPLIST_FILE = NO;
-				INFOPLIST_FILE = "Target Support Files/JLBlueLink/JLBlueLink-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/JLBlueLink/JLBlueLink.modulemap";
-				PRODUCT_MODULE_NAME = JLBlueLink;
-				PRODUCT_NAME = JLBlueLink;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_INSTALL_OBJC_HEADER = YES;
-				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -613,9 +645,9 @@
 			};
 			name = Release;
 		};
-		8C47F259216A979CF89173343E111156 /* Debug */ = {
+		D1C0F32570EF1F06FA72333BED7C3643 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 23E1D5562CAC4E280B93E5D7F39D5C6A /* JLBlueLink.debug.xcconfig */;
+			baseConfigurationReference = 088E0186F77300CF5D0382638F29424B /* JLBlueLink.debug.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -770,20 +802,20 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
+		4005AEA08EC1F55DB3C7C8A3B566BA4E /* Build configuration list for PBXNativeTarget "JLBlueLink" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D1C0F32570EF1F06FA72333BED7C3643 /* Debug */,
+				40107406C248D7450B44DBC4EFDF6D11 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				D299434AB35E7FD6F7921C8EF24742FF /* Debug */,
 				7EE7A78859F657F6BEFC651185B43192 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		A0049ED65301C2240F55A1F4BE37CC5A /* Build configuration list for PBXNativeTarget "JLBlueLink" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				8C47F259216A979CF89173343E111156 /* Debug */,
-				79A8A0D8E816292254BC91D347EE3551 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
