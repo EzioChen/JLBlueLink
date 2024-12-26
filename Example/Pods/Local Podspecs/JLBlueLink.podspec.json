@@ -31,5 +31,8 @@
   "vendored_frameworks": [
     "JLBlueLink/Frameworks/*.framework"
   ],
+  "pod_target_xcconfig": {
+    "OTHER_LDFLAGS": "-ObjC"
+  },
   "prepare_command": "FRAMEWORK_DIR=\"JLBlueLink/Frameworks\"\nfor framework in \"$FRAMEWORK_DIR\"/*.framework; do\n  INFO_PLIST=\"$framework/Info.plist\"\n\n  if [ ! -f \"$INFO_PLIST\" ]; then\n    echo \"Info.plist not found for $framework\"\n    continue\n  fi\n\n  FRAMEWORK_EXECUTABLE_NAME=$(defaults read \"$INFO_PLIST\" CFBundleExecutable 2>/dev/null || echo \"\")\n  if [ -z \"$FRAMEWORK_EXECUTABLE_NAME\" ]; then\n    echo \"CFBundleExecutable not found in $INFO_PLIST, skipping $framework\"\n    continue\n  fi\n\n  FRAMEWORK_EXECUTABLE_PATH=\"$framework/$FRAMEWORK_EXECUTABLE_NAME\"\n\n  if [ -f \"$FRAMEWORK_EXECUTABLE_PATH\" ]; then\n    ARCHS=$(lipo -info \"$FRAMEWORK_EXECUTABLE_PATH\" | awk -F ': ' '{print $2}')\n    echo \"Processing $framework with architectures: $ARCHS\"\n\n    if [[ $ARCHS == *\"i386\"* ]]; then\n      echo \"Removing i386 from $framework\"\n      lipo -remove i386 -output \"${FRAMEWORK_EXECUTABLE_PATH}_cleaned\" \"$FRAMEWORK_EXECUTABLE_PATH\"\n      mv \"${FRAMEWORK_EXECUTABLE_PATH}_cleaned\" \"$FRAMEWORK_EXECUTABLE_PATH\"\n    fi\n\n    if [[ $ARCHS == *\"x86_64\"* ]]; then\n      echo \"Removing x86_64 from $framework\"\n      lipo -remove x86_64 -output \"${FRAMEWORK_EXECUTABLE_PATH}_cleaned\" \"$FRAMEWORK_EXECUTABLE_PATH\"\n      mv \"${FRAMEWORK_EXECUTABLE_PATH}_cleaned\" \"$FRAMEWORK_EXECUTABLE_PATH\"\n    fi\n  else\n    echo \"Executable not found at $FRAMEWORK_EXECUTABLE_PATH, skipping $framework\"\n  fi\ndone"
 }

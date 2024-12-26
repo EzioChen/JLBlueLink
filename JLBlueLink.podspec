@@ -39,6 +39,9 @@ TODO: Add long description of the pod here.
   s.vendored_frameworks = [
    'JLBlueLink/Frameworks/*.framework'
   ]
+  s.pod_target_xcconfig = {
+    'OTHER_LDFLAGS' => '-ObjC'
+  }
   # 条件编译选项：根据目标平台排除不需要的架构
   # s.pod_target_xcconfig = {
     # 模拟器环境

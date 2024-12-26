@@ -1,16 +1,41 @@
 PODS:
   - JLBlueLink (1.0.0)
+  - MJRefresh (3.7.6)
+  - RxCocoa (6.8.0):
+    - RxRelay (= 6.8.0)
+    - RxSwift (= 6.8.0)
+  - RxRelay (6.8.0):
+    - RxSwift (= 6.8.0)
+  - RxSwift (6.8.0)
+  - SnapKit (5.6.0)
 
 DEPENDENCIES:
   - JLBlueLink (from `../`)
+  - MJRefresh
+  - RxCocoa
+  - RxSwift
+  - SnapKit
+
+SPEC REPOS:
+  trunk:
+    - MJRefresh
+    - RxCocoa
+    - RxRelay
+    - RxSwift
+    - SnapKit
 
 EXTERNAL SOURCES:
   JLBlueLink:
     :path: "../"
 
 SPEC CHECKSUMS:
-  JLBlueLink: 63543d535735403068fff1c924ea9dd7d765b872
+  JLBlueLink: fc5a8b962c85edd71eee8b895f89422f999597ac
+  MJRefresh: 2fe7fb43a5167ceda20bb7e63f130c04fd1814a5
+  RxCocoa: 2d33c1e1e5d66492052ad46b11024ae287572880
+  RxRelay: 335c78b926a2aea8d863a6d25f1ed3b5ad8e8705
+  RxSwift: 4e28be97cbcfeee614af26d83415febbf2bf6f45
+  SnapKit: e01d52ebb8ddbc333eefe2132acf85c8227d9c25
 
-PODFILE CHECKSUM: d65de53b030ac658563a865548c91e6e5ad013da
+PODFILE CHECKSUM: 75f9cded121844a984685099c56af11815df04f8
 
 COCOAPODS: 1.16.2
