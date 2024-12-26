@@ -42,13 +42,15 @@ TODO: Add long description of the pod here.
   s.pod_target_xcconfig = {
     'OTHER_LDFLAGS' => '-ObjC'
   }
-  # 条件编译选项：根据目标平台排除不需要的架构
-  # s.pod_target_xcconfig = {
-    # 模拟器环境
-    # 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64', # 模拟器排除 arm64
-    # 设备环境
-    # 'EXCLUDED_ARCHS[sdk=iphoneos*]' => 'i386 x86_64'       # 设备排除 i386 x86_64
-  # }
+  s.pod_target_xcconfig = {
+    # 将 arm64 从模拟器的架构中排除
+    'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64'
+  }
+  
+  s.user_target_xcconfig = {
+    # 将 arm64 从模拟器的架构中排除
+    'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64'
+  }
   # 动态剥离架构
   s.prepare_command = <<-CMD
   FRAMEWORK_DIR="JLBlueLink/Frameworks"
