@@ -20,7 +20,7 @@ JLBlueLink is available through [CocoaPods](https://cocoapods.org).
 ```ruby
 pod 'JLBlueLink'
 ```
-## User Manual
+## User Manual([中文](https://github.com/EzioChen/JLBlueLink/blob/main/README_Chinese.md))
 
 ## Key Components
 
@@ -334,6 +334,8 @@ extension ViewController: JLBlueLinkProtocol {
 - **Unable to discover devices**: Ensure Bluetooth is enabled, and the app has permission to scan.
 - **Connection failed**: Ensure the device is not connected to another device and is close to the phone.
 - **Scan timeout**: Adjust the `timeout` parameter in the scan filter.
+- **Other framework issues**: Please file an issue in the [JLBlueLink GitHub repository](https://github.com/16433934/JLBlueLink/issues).
+- **Other framework usage**:[JLFrameworks](https://github.com/EzioChen/JLBlueLink/blob/main/JLFrameworks.md)
 
 
 ## Author
