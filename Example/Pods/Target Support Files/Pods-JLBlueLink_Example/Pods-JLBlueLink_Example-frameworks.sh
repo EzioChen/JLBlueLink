@@ -183,6 +183,7 @@ if [[ "$CONFIGURATION" == "Debug" ]]; then
   install_framework "${BUILT_PRODUCTS_DIR}/RxSwift/RxSwift.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/SnapKit/SnapKit.framework"
   install_framework "${PODS_XCFRAMEWORKS_BUILD_DIR}/JLBlueLink/JLBmpConvertKit.framework"
+  install_framework "${PODS_XCFRAMEWORKS_BUILD_DIR}/JLBlueLink/JLPackageResKit.framework"
 fi
 if [[ "$CONFIGURATION" == "Release" ]]; then
   install_framework "${BUILT_PRODUCTS_DIR}/JLBlueLink/JLBlueLink.framework"
@@ -192,6 +193,7 @@ if [[ "$CONFIGURATION" == "Release" ]]; then
   install_framework "${BUILT_PRODUCTS_DIR}/RxSwift/RxSwift.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/SnapKit/SnapKit.framework"
   install_framework "${PODS_XCFRAMEWORKS_BUILD_DIR}/JLBlueLink/JLBmpConvertKit.framework"
+  install_framework "${PODS_XCFRAMEWORKS_BUILD_DIR}/JLBlueLink/JLPackageResKit.framework"
 fi
 if [ "${COCOAPODS_PARALLEL_CODE_SIGN}" == "true" ]; then
   wait

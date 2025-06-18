@@ -14,16 +14,18 @@ NS_ASSUME_NONNULL_BEGIN
 @interface JLImageConvertResult : NSObject
 /// 结果码
 @property (nonatomic, assign) int result;
-/// 算法类型
-@property (nonatomic, assign) int algorithm;
 /// 数据大小
 @property (nonatomic, assign) int buf_size;
 /// 图像格式
 @property (nonatomic, assign) int pixel_format;
 /// 压缩模式
 @property (nonatomic, assign) int compress_mode;
+
+#if TARGET_OS_IOS || TARGET_OS_MACCATALYST
 /// 输出文件路径
 @property (nullable, nonatomic, copy) NSString *outFilePath;
+#endif
+
 /// 输出文件内容
 @property (nullable, nonatomic, copy) NSData *outFileData;
 

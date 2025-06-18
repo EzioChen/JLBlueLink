@@ -52,6 +52,10 @@ typedef void(^JL_Assist_BK)(BOOL isPaired);
 -(void)assistUpdateValueForCharacteristic:(CBCharacteristic *)characteristic;
 
 
+/// Execute in a method 「- (void)peripheral:didWriteValueForCharacteristic:error:」
+/// Execute in a method 「- (void)peripheral:didIsReadyForWrite:error:」
+-(void)assistDidReady;
+
 @end
 
 NS_ASSUME_NONNULL_END

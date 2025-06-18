@@ -6,27 +6,31 @@
 	<dict>
 		<key>Headers/JLBmpConvert.h</key>
 		<data>
-		XOBku8hbjK3E2z3ZDm833NBB2X4=
+		lLc6Ut4vBEYxnRbp4W7JDtz6crI=
 		</data>
 		<key>Headers/JLBmpConvertKit.h</key>
 		<data>
-		39IMLiiveOpmaBckMFI6z/XWqp8=
+		U9YgHIH4FcJY406iHUmLVEwOPzQ=
+		</data>
+		<key>Headers/JLBmpConvertOption.h</key>
+		<data>
+		aNa1Jswm+iorvb49Hq30v1r+Ijg=
 		</data>
 		<key>Headers/JLGifBin.h</key>
 		<data>
-		HxH8KY4TwBcq4XInK605pBY7xu4=
+		+UKivjyP0JG0+mVZPKUAWwhParQ=
 		</data>
 		<key>Headers/JLImageConvertResult.h</key>
 		<data>
-		SKWg5uiwPOpOM3FCEU9YIWCKCTM=
+		oTrRd0HS6yuPr1JxLpx1Qgr6sKw=
 		</data>
 		<key>Info.plist</key>
 		<data>
-		zGLt+8zBA8aw9hI10uqYV/irriA=
+		+Elw85BU28+55ZJC3IQjdzrNWOU=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
-		l1GZXfExPL7/EAKu+ykADAeiYN4=
+		VG59AHi+XKWb6IYCdGbZKHPgBbA=
 		</data>
 	</dict>
 	<key>files2</key>
@@ -35,55 +39,66 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			XOBku8hbjK3E2z3ZDm833NBB2X4=
+			lLc6Ut4vBEYxnRbp4W7JDtz6crI=
 			</data>
 			<key>hash2</key>
 			<data>
-			HokGYskkF++Z0gxz+BsxydV+QUyNnrBerd+EnHOMh6o=
+			+lo/SmEORXaoFWjnF/PbrGo2UJP+D/FnPnm+PAO8Rco=
 			</data>
 		</dict>
 		<key>Headers/JLBmpConvertKit.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			39IMLiiveOpmaBckMFI6z/XWqp8=
+			U9YgHIH4FcJY406iHUmLVEwOPzQ=
 			</data>
 			<key>hash2</key>
 			<data>
-			HeQro3S+pS3Zp84DrGZB3mEyQ4jDbV4dNHU8NdRitLM=
+			96APcX15hux26dePCtDnNOppcfB5ikBw99Djz0OAZ/k=
+			</data>
+		</dict>
+		<key>Headers/JLBmpConvertOption.h</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			aNa1Jswm+iorvb49Hq30v1r+Ijg=
+			</data>
+			<key>hash2</key>
+			<data>
+			Z2PoH0AvRMgqYkMsqIEDK7g9H49EGbTXzCO8c5MbLEY=
 			</data>
 		</dict>
 		<key>Headers/JLGifBin.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			HxH8KY4TwBcq4XInK605pBY7xu4=
+			+UKivjyP0JG0+mVZPKUAWwhParQ=
 			</data>
 			<key>hash2</key>
 			<data>
-			MQ+dLpoU6hvlo/pGRMh3W8TfDJH7Wtg+XJwcL32s7xU=
+			A8LhdAy5NiJx3J5nKUE53rzYmIKX6Cp9oTpGfJJk+tQ=
 			</data>
 		</dict>
 		<key>Headers/JLImageConvertResult.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			SKWg5uiwPOpOM3FCEU9YIWCKCTM=
+			oTrRd0HS6yuPr1JxLpx1Qgr6sKw=
 			</data>
 			<key>hash2</key>
 			<data>
-			XJZ4P6QOfXpp/xY4aZF7SATaT6BL43zM049zx2K1bi4=
+			vacF3oh76vh4n8lafP3hAi/fYXjU4YoqA6CbjC05MYw=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			l1GZXfExPL7/EAKu+ykADAeiYN4=
+			VG59AHi+XKWb6IYCdGbZKHPgBbA=
 			</data>
 			<key>hash2</key>
 			<data>
-			kuIAqJJ1Q6wvqhzd5d5fbLacPk05S0IAk8jj3ZaHM60=
+			nU2jpsOghgGuDPwpIFZ+hGnZ5Xj24fG1pjw1H8vpwEs=
 			</data>
 		</dict>
 	</dict>

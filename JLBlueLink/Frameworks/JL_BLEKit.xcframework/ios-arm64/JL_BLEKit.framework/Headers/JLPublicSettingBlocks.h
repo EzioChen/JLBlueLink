@@ -171,6 +171,9 @@ typedef void(^JLPSSDKInfoCbk)(JL_CMDStatus status,JLPublicSDKInfoModel *_Nullabl
 /// 0x0002 AC707N
 @property(nonatomic,assign)uint16_t chipId;
 
+/// 是否支持 gif
+@property(nonatomic,assign)BOOL isSupportGif;
+
 /// 初始化
 /// - Parameter data: 数据
 + (JLPublicSDKInfoModel *)initData:(NSData *)data;

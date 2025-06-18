@@ -35,10 +35,10 @@ variant_for_slice()
   "JLLogHelper.xcframework/ios-arm64_x86_64-simulator")
     echo "simulator"
     ;;
-  "JLWtsToCfgLib.xcframework/ios-arm64")
+  "JLPackageResKit.xcframework/ios-arm64")
     echo ""
     ;;
-  "JLWtsToCfgLib.xcframework/ios-arm64_x86_64-simulator")
+  "JLPackageResKit.xcframework/ios-x86_64-simulator")
     echo "simulator"
     ;;
   "JL_AdvParse.xcframework/ios-arm64")
@@ -89,11 +89,11 @@ archs_for_slice()
   "JLLogHelper.xcframework/ios-arm64_x86_64-simulator")
     echo "arm64 x86_64"
     ;;
-  "JLWtsToCfgLib.xcframework/ios-arm64")
+  "JLPackageResKit.xcframework/ios-arm64")
     echo "arm64"
     ;;
-  "JLWtsToCfgLib.xcframework/ios-arm64_x86_64-simulator")
-    echo "arm64 x86_64"
+  "JLPackageResKit.xcframework/ios-x86_64-simulator")
+    echo "x86_64"
     ;;
   "JL_AdvParse.xcframework/ios-arm64")
     echo "arm64"
@@ -204,7 +204,7 @@ install_xcframework() {
 install_xcframework "${PODS_ROOT}/../../JLBlueLink/Frameworks/JLBmpConvertKit.xcframework" "JLBlueLink" "framework" "ios-arm64" "ios-arm64_x86_64-simulator"
 install_xcframework "${PODS_ROOT}/../../JLBlueLink/Frameworks/JLDialUnit.xcframework" "JLBlueLink" "framework" "ios-arm64" "ios-arm64_x86_64-simulator"
 install_xcframework "${PODS_ROOT}/../../JLBlueLink/Frameworks/JLLogHelper.xcframework" "JLBlueLink" "framework" "ios-arm64" "ios-arm64_x86_64-simulator"
-install_xcframework "${PODS_ROOT}/../../JLBlueLink/Frameworks/JLWtsToCfgLib.xcframework" "JLBlueLink" "framework" "ios-arm64" "ios-arm64_x86_64-simulator"
+install_xcframework "${PODS_ROOT}/../../JLBlueLink/Frameworks/JLPackageResKit.xcframework" "JLBlueLink" "framework" "ios-arm64" "ios-x86_64-simulator"
 install_xcframework "${PODS_ROOT}/../../JLBlueLink/Frameworks/JL_AdvParse.xcframework" "JLBlueLink" "framework" "ios-arm64" "ios-arm64_x86_64-simulator"
 install_xcframework "${PODS_ROOT}/../../JLBlueLink/Frameworks/JL_BLEKit.xcframework" "JLBlueLink" "framework" "ios-arm64" "ios-arm64_x86_64-simulator"
 install_xcframework "${PODS_ROOT}/../../JLBlueLink/Frameworks/JL_HashPair.xcframework" "JLBlueLink" "framework" "ios-arm64" "ios-arm64_x86_64-simulator"

@@ -85,6 +85,14 @@ extern NSString *kJL_BLE_M_ANCS_UPDATE;         //设备ANCS权限变更
  */
 -(void)connectEntity:(JL_EntityM*)entity Result:(JL_EntityM_STATUS_BK)result;
 
+
+/// 根据设备 ADV 广播报中的 Mac 连接设备
+/// ADV 的数据格式必须满足 JL 设备的标准 TWS 系列的数据结构
+/// @param advMac 广播报中的蓝牙地址
+/// 一般是指 EDR 地址，当然开发者也可以跟固件端协商，采取其他的地址，但是要求数据结构不变
+/// @param result 回调
+-(void)connectEntityWithAdvMac:(NSString *)advMac Result:(JL_EntityM_STATUS_BK) result;
+
 /// 根据设备Mac去回连
 /// @param mac Mac地址
 /// @param result 回调

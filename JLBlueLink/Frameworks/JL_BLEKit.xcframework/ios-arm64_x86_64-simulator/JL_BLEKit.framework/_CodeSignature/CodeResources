@@ -62,7 +62,7 @@
 		</data>
 		<key>Headers/JLDeviceConfigTws.h</key>
 		<data>
-		lRCxvHFPiNi2W9N/LADVzt9OSTI=
+		rrmgcu009Sfc5NLvVHpdu3lb7X0=
 		</data>
 		<key>Headers/JLDhaFitting.h</key>
 		<data>
@@ -92,13 +92,17 @@
 		<data>
 		AhNiPEWSjbmL4UzfcEPRJsLHIlA=
 		</data>
+		<key>Headers/JLFlashOpMgr.h</key>
+		<data>
+		jFkwAiSpo4i0NsOH8Hvb1ndaTZ0=
+		</data>
 		<key>Headers/JLHttpHelper.h</key>
 		<data>
 		jjC8gsI1TXut5f4lkIPDqw3qzJw=
 		</data>
 		<key>Headers/JLModelCardInfo.h</key>
 		<data>
-		P7rQO0UN0rsLxMN6DJtMMx+kVP4=
+		6+vDn6HM1UUNx1OsvLE9cFXdf7I=
 		</data>
 		<key>Headers/JLModelDevFunc.h</key>
 		<data>
@@ -142,7 +146,7 @@
 		</data>
 		<key>Headers/JLModel_Device.h</key>
 		<data>
-		fwIFoc2O89NKXGXZ8jJXiedswNk=
+		J3Wa2rKwCcawIEoPGwEUGUXrguU=
 		</data>
 		<key>Headers/JLModel_EQ.h</key>
 		<data>
@@ -154,11 +158,11 @@
 		</data>
 		<key>Headers/JLModel_File.h</key>
 		<data>
-		fStKd1w7QgbRTME2FzKmoZKBgHs=
+		5m4sJ45ySIdu0iCNNIyoas8FIes=
 		</data>
 		<key>Headers/JLModel_Flash.h</key>
 		<data>
-		GlPe/EQl3/hlDwiwPgdsaSyvRNY=
+		hs4fTAyq4VrP5E75/Eu5V6emlGE=
 		</data>
 		<key>Headers/JLModel_Headset.h</key>
 		<data>
@@ -174,7 +178,7 @@
 		</data>
 		<key>Headers/JLModel_SPEEX.h</key>
 		<data>
-		3X6nyP7dmsN130ryjbSLmXisNmQ=
+		e1FRP2evN758aCEBIsNyCuZ6nSU=
 		</data>
 		<key>Headers/JLModel_SmallFile.h</key>
 		<data>
@@ -188,17 +192,13 @@
 		<data>
 		5rS7/fBZGnArkVzBAb3cBfeg6yc=
 		</data>
-		<key>Headers/JLPromiseTask.h</key>
-		<data>
-		jIuZ7XWlhgMt/Dct8TfAb/1lLnM=
-		</data>
 		<key>Headers/JLPublicSetting.h</key>
 		<data>
 		JmQFw0ilSmX82iGoVqghdmnWy5Q=
 		</data>
 		<key>Headers/JLPublicSettingBlocks.h</key>
 		<data>
-		WQMelmJn6dWkwNf4a0bIntO+Ptw=
+		2VrTNyPqineIaJWuANeWpP9Rc/I=
 		</data>
 		<key>Headers/JLSedentaryRmdModel.h</key>
 		<data>
@@ -220,13 +220,21 @@
 		<data>
 		cGAuYe44LwYH2ZMBDPIdeoDJXEA=
 		</data>
+		<key>Headers/JLTaskChain.h</key>
+		<data>
+		cn4G595g0G8b1zrEO5GY30wS9QQ=
+		</data>
+		<key>Headers/JLTipsSoundReplaceMgr.h</key>
+		<data>
+		zcaXeAHg8YTihN4YTIHfClVSTLM=
+		</data>
 		<key>Headers/JLTranslateAudio.h</key>
 		<data>
 		2ioR1DeqHRA+A+PzMRDpllIfyM8=
 		</data>
 		<key>Headers/JLTranslateSet.h</key>
 		<data>
-		QzvqpZhl9I32DiYVbgtkG1d0Xd8=
+		kB3osNXpyR8T2l7W1NnW2bMiPTo=
 		</data>
 		<key>Headers/JLTranslateSetMode.h</key>
 		<data>
@@ -234,7 +242,7 @@
 		</data>
 		<key>Headers/JLTranslationManager.h</key>
 		<data>
-		+rhtWou57iTQbYCHttiPQjXDRHI=
+		f4fDzkgvqiH8BQ3Hdtqcs4TiVqI=
 		</data>
 		<key>Headers/JLTwsSupportFuncs.h</key>
 		<data>
@@ -278,7 +286,7 @@
 		</data>
 		<key>Headers/JL_Assist.h</key>
 		<data>
-		RkBLE6k9Mynr+UPra6zLOho+tR0=
+		HRng4LCXcSJALegEI720y9Opzao=
 		</data>
 		<key>Headers/JL_BLEAction.h</key>
 		<data>
@@ -286,11 +294,11 @@
 		</data>
 		<key>Headers/JL_BLEKit.h</key>
 		<data>
-		8+Eug53lrNFmaPeW3/cqolPpjqE=
+		E0dWivscKu3nLc+atKtg+g7V+nA=
 		</data>
 		<key>Headers/JL_BLEMultiple.h</key>
 		<data>
-		9gArzKwpZEA49zjRECdNpfxZ0GY=
+		3+SCgXNI76TPxc9n7kFeW7Ny370=
 		</data>
 		<key>Headers/JL_BatchManger.h</key>
 		<data>
@@ -310,7 +318,7 @@
 		</data>
 		<key>Headers/JL_CustomManager.h</key>
 		<data>
-		BrSfZ6qEbDmdhA4tQ9533D/Wb54=
+		580Jxmgh7xm0z/J2jgkJy7kyoEE=
 		</data>
 		<key>Headers/JL_DeviceLogs.h</key>
 		<data>
@@ -318,7 +326,7 @@
 		</data>
 		<key>Headers/JL_EntityM.h</key>
 		<data>
-		WNvahju1shqCgaulFxHFkAGxT/A=
+		xwXeGvnzpINVDCE6oaaz30+t1a0=
 		</data>
 		<key>Headers/JL_FileManager.h</key>
 		<data>
@@ -330,7 +338,7 @@
 		</data>
 		<key>Headers/JL_FlashOperateManager.h</key>
 		<data>
-		7FRUFR0nR88ifWssiIiKsoLVWXE=
+		x3BIj8qkUf8JwXtoepylG+EPKzk=
 		</data>
 		<key>Headers/JL_FmManager.h</key>
 		<data>
@@ -362,7 +370,7 @@
 		</data>
 		<key>Headers/JL_ManagerM.h</key>
 		<data>
-		hIQXXjkNLsP5EBgFcsDmouaSBq0=
+		CCCYqknn4+UMFuzdCljyqq8ZDoI=
 		</data>
 		<key>Headers/JL_MusicControlManager.h</key>
 		<data>
@@ -438,7 +446,7 @@
 		</data>
 		<key>Headers/JL_SpeexManager.h</key>
 		<data>
-		/7LL2yL5DO1K59wkYO6LGudllQ4=
+		keUQuw6j5XUhpgx2m5vQh1RAkrw=
 		</data>
 		<key>Headers/JL_SystemEQ.h</key>
 		<data>
@@ -458,7 +466,7 @@
 		</data>
 		<key>Headers/JL_TwsManager.h</key>
 		<data>
-		IbkeRtZ/KEXHB6p/OjUJNcMnS7I=
+		oj2UkJe8eSmFh+W8mERD9j5mXP0=
 		</data>
 		<key>Headers/JL_TypeEnum.h</key>
 		<data>
@@ -502,11 +510,11 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		OSLssWTphNDj7regqmdmOOtXS4g=
+		kW1LG+83A68bGt6Mod+A6gZ7WVU=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
-		83P2L5KcY24FI/wOGSwEPpeMzHE=
+		ksULlN/jw1ds9CMKoL2JmSfl9y8=
 		</data>
 	</dict>
 	<key>files2</key>
@@ -669,11 +677,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			lRCxvHFPiNi2W9N/LADVzt9OSTI=
+			rrmgcu009Sfc5NLvVHpdu3lb7X0=
 			</data>
 			<key>hash2</key>
 			<data>
-			tDijL9n+X83NKGoreXVpwUdBKP12Lid2WEjqV3SBmyE=
+			Uo8jXcVFb6L5PUYgcWftDRQ/LPmVWU/rEJ9OcmXsMis=
 			</data>
 		</dict>
 		<key>Headers/JLDhaFitting.h</key>
@@ -753,6 +761,17 @@
 			BEEYzZkHfUlHFL1wzfMXY+LczYIZGpOAYI+EwiAyQUY=
 			</data>
 		</dict>
+		<key>Headers/JLFlashOpMgr.h</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			jFkwAiSpo4i0NsOH8Hvb1ndaTZ0=
+			</data>
+			<key>hash2</key>
+			<data>
+			dup9jkRNCiBvrEznSm53XnKcvcy/jMbzQZqH1U+PekQ=
+			</data>
+		</dict>
 		<key>Headers/JLHttpHelper.h</key>
 		<dict>
 			<key>hash</key>
@@ -768,11 +787,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			P7rQO0UN0rsLxMN6DJtMMx+kVP4=
+			6+vDn6HM1UUNx1OsvLE9cFXdf7I=
 			</data>
 			<key>hash2</key>
 			<data>
-			F+lIwSqL7I4tiudb0LvUSAUo2lkrtRs9UcWkJXtShfY=
+			FXdMPPKpwcn+pPUAvARZU99GP5OhPWTy+3giSSc0xT0=
 			</data>
 		</dict>
 		<key>Headers/JLModelDevFunc.h</key>
@@ -889,11 +908,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			fwIFoc2O89NKXGXZ8jJXiedswNk=
+			J3Wa2rKwCcawIEoPGwEUGUXrguU=
 			</data>
 			<key>hash2</key>
 			<data>
-			OqH2ZjnXDE14D++Db9vhtgAsxoLgILkGiVRV9HEc6CI=
+			6TTCahC8B8jOF1Xn034XIR3RvKM/O/rkmV9m8xlqsUY=
 			</data>
 		</dict>
 		<key>Headers/JLModel_EQ.h</key>
@@ -922,22 +941,22 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			fStKd1w7QgbRTME2FzKmoZKBgHs=
+			5m4sJ45ySIdu0iCNNIyoas8FIes=
 			</data>
 			<key>hash2</key>
 			<data>
-			z1I5Q4rtosvhMVIMzEbasAmy2ZUgCsBc/lRgPZxEm3I=
+			synLaplr03oHVcDvP1yG+ZOxhGf+/5qpDhjotwg2cuk=
 			</data>
 		</dict>
 		<key>Headers/JLModel_Flash.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			GlPe/EQl3/hlDwiwPgdsaSyvRNY=
+			hs4fTAyq4VrP5E75/Eu5V6emlGE=
 			</data>
 			<key>hash2</key>
 			<data>
-			V8nRvCW8qFEO9mfYlXLHjDiIdOZj2H8x7WI5Dh/4N0U=
+			Y9Mz84tuYov1JaAbL/HB6k4QEF8N55hbbevEFTnXSjc=
 			</data>
 		</dict>
 		<key>Headers/JLModel_Headset.h</key>
@@ -977,11 +996,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			3X6nyP7dmsN130ryjbSLmXisNmQ=
+			e1FRP2evN758aCEBIsNyCuZ6nSU=
 			</data>
 			<key>hash2</key>
 			<data>
-			mnSDyEfo/bfyQ7uW1IEiSeuLBcVI3JxjSrBGmS/VVwE=
+			Mw74qcqx3V4b9HV7aDcxM2DiEIBmu7Gq/IdbCs8V0Dc=
 			</data>
 		</dict>
 		<key>Headers/JLModel_SmallFile.h</key>
@@ -1017,17 +1036,6 @@
 			PE78aK6zry0CtG7vmYKOu8Knf6SG/mihGP4pp+HtA0Y=
 			</data>
 		</dict>
-		<key>Headers/JLPromiseTask.h</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			jIuZ7XWlhgMt/Dct8TfAb/1lLnM=
-			</data>
-			<key>hash2</key>
-			<data>
-			6+VZkF3gwXLXL6HxECNEQjtYmqOa7t0t5MBqCxdgLhs=
-			</data>
-		</dict>
 		<key>Headers/JLPublicSetting.h</key>
 		<dict>
 			<key>hash</key>
@@ -1043,11 +1051,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			WQMelmJn6dWkwNf4a0bIntO+Ptw=
+			2VrTNyPqineIaJWuANeWpP9Rc/I=
 			</data>
 			<key>hash2</key>
 			<data>
-			8RCjvRswPyYZdW9IbzkDHA/cQRRP9wcZYKy8/ucENnM=
+			9f2Zc8W1Z9xpBFDS/jQGNurk/5rm7NDdo/89r7p7Y9M=
 			</data>
 		</dict>
 		<key>Headers/JLSedentaryRmdModel.h</key>
@@ -1105,6 +1113,28 @@
 			7ElCH9JqVqLmjB+GMFKYWMa9S3EHnysmartqaXDNtwg=
 			</data>
 		</dict>
+		<key>Headers/JLTaskChain.h</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			cn4G595g0G8b1zrEO5GY30wS9QQ=
+			</data>
+			<key>hash2</key>
+			<data>
+			RP4JlVifxNMxxecFCGVJsLjblRLQln8l1ZOdBUoTBxs=
+			</data>
+		</dict>
+		<key>Headers/JLTipsSoundReplaceMgr.h</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			zcaXeAHg8YTihN4YTIHfClVSTLM=
+			</data>
+			<key>hash2</key>
+			<data>
+			0I+uSD5jcj6mKTD083bDq7ymGhjlNsENpGHwnpSv0ag=
+			</data>
+		</dict>
 		<key>Headers/JLTranslateAudio.h</key>
 		<dict>
 			<key>hash</key>
@@ -1120,11 +1150,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			QzvqpZhl9I32DiYVbgtkG1d0Xd8=
+			kB3osNXpyR8T2l7W1NnW2bMiPTo=
 			</data>
 			<key>hash2</key>
 			<data>
-			5X8jXOR9SIq2fujP5bfx2tO1chfjm947LNnYsKjnRTM=
+			ftnluh9XjNGfVZN066J7BmocXUlbhofIct6pCDUUl2U=
 			</data>
 		</dict>
 		<key>Headers/JLTranslateSetMode.h</key>
@@ -1142,11 +1172,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			+rhtWou57iTQbYCHttiPQjXDRHI=
+			f4fDzkgvqiH8BQ3Hdtqcs4TiVqI=
 			</data>
 			<key>hash2</key>
 			<data>
-			gIYF2vHi5lYFqDxTyEwqlpK7dF6S9qFTkC0x5hP1LBQ=
+			IjBV5/t+Yh7wx3llgAJ/kQpEqXIFXmZkzeUMcEfRxAg=
 			</data>
 		</dict>
 		<key>Headers/JLTwsSupportFuncs.h</key>
@@ -1263,11 +1293,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			RkBLE6k9Mynr+UPra6zLOho+tR0=
+			HRng4LCXcSJALegEI720y9Opzao=
 			</data>
 			<key>hash2</key>
 			<data>
-			g6jHzb1Srtrqm5SI6RrMRIaJJwKu8yDzHAgtsMLmcHA=
+			2flqI+t09SFGtej2Vdi5xstNfDDkJdWmCN9yIWuL77c=
 			</data>
 		</dict>
 		<key>Headers/JL_BLEAction.h</key>
@@ -1285,22 +1315,22 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			8+Eug53lrNFmaPeW3/cqolPpjqE=
+			E0dWivscKu3nLc+atKtg+g7V+nA=
 			</data>
 			<key>hash2</key>
 			<data>
-			F0abrZo/IUX9fEWznwNhYvBclhiZXasTorcjNs8VH8Q=
+			0Ota4ef01o9p0oe02faBaKJ9KT1d7A7WcFu7RzRE+is=
 			</data>
 		</dict>
 		<key>Headers/JL_BLEMultiple.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			9gArzKwpZEA49zjRECdNpfxZ0GY=
+			3+SCgXNI76TPxc9n7kFeW7Ny370=
 			</data>
 			<key>hash2</key>
 			<data>
-			LLwEqmtFc34UQHBm+kaEeYWZS1v6vO7lQkeAwHO2mqU=
+			2f/TELodf0je5a6AhxgJd2u8d30cTpYMbjIMw0m4uu4=
 			</data>
 		</dict>
 		<key>Headers/JL_BatchManger.h</key>
@@ -1351,11 +1381,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			BrSfZ6qEbDmdhA4tQ9533D/Wb54=
+			580Jxmgh7xm0z/J2jgkJy7kyoEE=
 			</data>
 			<key>hash2</key>
 			<data>
-			2Q1TIWuE0Kr0JnmDdYFqljVcExrrqLAJVFEz8mvXpl8=
+			1JmbTccsZkqf8AljOgKTFhPJd2lIPAdU9HxEWEDCuW8=
 			</data>
 		</dict>
 		<key>Headers/JL_DeviceLogs.h</key>
@@ -1373,11 +1403,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			WNvahju1shqCgaulFxHFkAGxT/A=
+			xwXeGvnzpINVDCE6oaaz30+t1a0=
 			</data>
 			<key>hash2</key>
 			<data>
-			8ZW7C1hu2nxxZZeKu1mWLZ94E9P+r0t4qZJEMFM8ljI=
+			lm0Ky/HcGmAsu6uRjnBT9xnz4QBLT4LOZVfYH/5egyg=
 			</data>
 		</dict>
 		<key>Headers/JL_FileManager.h</key>
@@ -1406,11 +1436,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			7FRUFR0nR88ifWssiIiKsoLVWXE=
+			x3BIj8qkUf8JwXtoepylG+EPKzk=
 			</data>
 			<key>hash2</key>
 			<data>
-			dhgvwxRMeUGEuFRgrFgNQfmBWQKDQ4BSwbow0NsBkJo=
+			3xJk6FxTxrOSWdFQjua0R08Ff8cyuKq83EsxLFtB0OY=
 			</data>
 		</dict>
 		<key>Headers/JL_FmManager.h</key>
@@ -1494,11 +1524,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			hIQXXjkNLsP5EBgFcsDmouaSBq0=
+			CCCYqknn4+UMFuzdCljyqq8ZDoI=
 			</data>
 			<key>hash2</key>
 			<data>
-			boQBx8UYMfCQ0RzEFFBzEn+ONyfUtP+2arxB1rLcyf8=
+			ShggDNasxnLJdt0lVaj5weA1svKQ93rzuenaxliDqng=
 			</data>
 		</dict>
 		<key>Headers/JL_MusicControlManager.h</key>
@@ -1703,11 +1733,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			/7LL2yL5DO1K59wkYO6LGudllQ4=
+			keUQuw6j5XUhpgx2m5vQh1RAkrw=
 			</data>
 			<key>hash2</key>
 			<data>
-			SB45KvfclNi3Pd5VFFe+EtmKvrSJgaRXTCU+kA1EjX8=
+			u7eHiYg5JU4jdWDxUY66pnQHKBgq4xL24SOBcYugdTk=
 			</data>
 		</dict>
 		<key>Headers/JL_SystemEQ.h</key>
@@ -1758,11 +1788,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			IbkeRtZ/KEXHB6p/OjUJNcMnS7I=
+			oj2UkJe8eSmFh+W8mERD9j5mXP0=
 			</data>
 			<key>hash2</key>
 			<data>
-			m35TVXKItLkJ6qxO5WXsX8gPKmoc8PniMGmZEFaC+OE=
+			3r8kAsxCHWyYNdzZW0dpKcrkI0g5/hPRPNXtCMsi2bc=
 			</data>
 		</dict>
 		<key>Headers/JL_TypeEnum.h</key>
@@ -1879,11 +1909,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			83P2L5KcY24FI/wOGSwEPpeMzHE=
+			ksULlN/jw1ds9CMKoL2JmSfl9y8=
 			</data>
 			<key>hash2</key>
 			<data>
-			aKUbiObTmgr7P8CCCXVeP9V1ah+Q798jR7ts20Kuxuw=
+			GmqS29lJ4xfkc+4xaB0gHt7wDmcUyPJ9ANAIq1ETqTw=
 			</data>
 		</dict>
 	</dict>

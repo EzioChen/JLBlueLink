@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'JLBlueLink'
-  s.version          = '1.0.1'
+  s.version          = '1.1.0'
   s.summary          = 'Library for Jieli bluetooth device link with iOS.'
 
   s.description      = <<-DESC

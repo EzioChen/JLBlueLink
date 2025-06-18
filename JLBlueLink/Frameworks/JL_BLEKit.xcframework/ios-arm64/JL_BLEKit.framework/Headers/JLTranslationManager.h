@@ -38,6 +38,13 @@ NS_ASSUME_NONNULL_BEGIN
 /// @param err 错误
 -(void)onError:(NSString *)uuid Error:(NSError *) err;
 
+@optional
+
+/// 通话状态
+/// @param isCalling 是否在通话
+/// @param uuid 设备UUID
+-(void)isOnCalling:(BOOL)isCalling UUID:(NSString *)uuid;
+
 @end
 
 typedef void(^JLTranslationManagerGetBlock)(JLTranslateSetMode *_Nullable mode,NSError *_Nullable err);
@@ -50,6 +57,12 @@ typedef void(^JLTranslationManagerSetBlock)(JLTranslateSetResultType status,NSEr
 
 /// 代理
 @property (nonatomic, weak) id<JLTranslationManagerDelegate> delegate;
+
+/// 命令最大超时时间
+/// 默认是 10s
+/// Command maximum timeout time
+/// Default is 10s
+@property (nonatomic, assign) NSTimeInterval cmdMaxTimeOut;
 
 /// 最大MTU，默认是 200 最大不超过 MTU - 20 byte
 /// Max MTU, the default is 200, which is not greater than MTU - 20 byte
@@ -67,6 +80,10 @@ typedef void(^JLTranslationManagerSetBlock)(JLTranslateSetResultType status,NSEr
 /// Recording policy, the default is to record on the phone
 @property (nonatomic, assign) JLTranslateRecordType recordtype;
 
+/// 是否在通话中
+/// Whether in a call
+@property (nonatomic, assign) BOOL isCalling;
+
 /// 设备对象
 /// Device object
 @property (nonatomic, strong, readonly) JL_ManagerM *manager;
@@ -76,11 +93,17 @@ typedef void(^JLTranslationManagerSetBlock)(JLTranslateSetResultType status,NSEr
 /// - Parameters:
 ///   - delegate: 代理 JLTranslationManagerDelegate
 ///   - manager: 设备对象 DeviceManager
-- (instancetype)initWithDelegate:(id<JLTranslationManagerDelegate>)delegate Manager:(JL_ManagerM *)manager;
+///   - result: 回调
+- (instancetype)initWithDelegate:(id<JLTranslationManagerDelegate>)delegate Manager:(JL_ManagerM *)manager Result:(void(^)(BOOL success, NSError *_Nullable err))result;
 
 /// 是否支持翻译功能
 /// Does it support translation function
 - (BOOL)trIsSupportTranslate;
+
+/// 是否通过 a2dp 播放
+/// Is it played through a2dp
+- (BOOL)trIsPlayWithA2dp;
+
 
 /// 是否正在工作
 /// Is it working
@@ -110,6 +133,10 @@ typedef void(^JLTranslationManagerSetBlock)(JLTranslateSetResultType status,NSEr
 ///   - audio: JLTranslateAudio 原返回音频类型
 ///   - audioData: 处理完的音频数据
 - (void)trWriteAudio:(JLTranslateAudio *)audio TranslateData:(NSData *)audioData;
+
+-(void)trWriteAudioV2:(JLTranslateAudio *)audio TranslateData:(NSData *)audioData;
+
+-(void)trSendIsRelay;
 
 /// 销毁
 /// Destroy

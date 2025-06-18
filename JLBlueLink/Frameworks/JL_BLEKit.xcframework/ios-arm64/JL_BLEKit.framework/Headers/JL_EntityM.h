@@ -91,7 +91,8 @@ typedef void(^JL_EntityM_STATUS_BK)(JL_EntityM_Status status);
 @property(assign,nonatomic) uint8_t         mPower_L;
 @property(assign,nonatomic) uint8_t         mPower_R;
 @property(assign,nonatomic) uint8_t         mPower_C;
-@property(strong,nonatomic) NSString        *mVID;
+@property(strong,nonatomic) NSString        *mVID __attribute__((deprecated("Deprecated, use mUID instead")));
+@property(strong,nonatomic) NSString        *mUID;
 @property(strong,nonatomic) NSString        *mPID;
 @property(strong,nonatomic) NSString        *mEdr;
 @property(strong,nonatomic) NSString        *mBleAddr;            //OTA设备需要

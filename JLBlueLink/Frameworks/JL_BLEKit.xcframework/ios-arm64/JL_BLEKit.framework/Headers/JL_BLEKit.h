@@ -20,8 +20,8 @@ FOUNDATION_EXPORT const unsigned char JL_BLEKitVersionString[];
 #import <JL_BLEKit/JL_Handle.h>
 #import <JL_BLEKit/JL_BLEAction.h>
 #import <JL_BLEKit/JL_vad.h>
-#import <JL_BLEKit/JLPromiseTask.h>
 #import <JL_BLEKit/JL_TypeEnum.h>
+#import <JL_BLEKit/JLTaskChain.h>
 
 #import <JL_BLEKit/JLModel_Device.h>
 #import <JL_BLEKit/JLModel_RTC.h>
@@ -118,5 +118,6 @@ FOUNDATION_EXPORT const unsigned char JL_BLEKitVersionString[];
 #import <JL_BLEKit/JLModelSpdif.h>
 #import <JL_BLEKit/JLModelPCServer.h>
 #import <JL_BLEKit/JLSpdifPCManager.h>
-
+#import <JL_BLEKit/JLFlashOpMgr.h>
+#import <JL_BLEKit/JLTipsSoundReplaceMgr.h>
 

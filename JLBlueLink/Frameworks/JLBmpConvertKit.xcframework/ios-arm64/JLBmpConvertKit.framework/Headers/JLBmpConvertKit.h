@@ -20,4 +20,5 @@ FOUNDATION_EXPORT const unsigned char JLBmpConvertKitVersionString[];
 #import <JLBmpConvertKit/JLBmpConvert.h>
 #import <JLBmpConvertKit/JLGifBin.h>
 #import <JLBmpConvertKit/JLImageConvertResult.h>
+#import <JLBmpConvertKit/JLBmpConvertOption.h>
 

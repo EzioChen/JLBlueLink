@@ -23,5 +23,8 @@ FOUNDATION_EXPORT const unsigned char JLDialUnitVersionString[];
 #import <JLDialUnit/ZZArchiveEntry.h>
 #import <JLDialUnit/ZZConstants.h>
 #import <JLDialUnit/ZZError.h>
+#import <JLDialUnit/JLDialSourceModel.h>
+#import <JLDialUnit/JLDialUnitMgr.h>
+#import <JLDialUnit/JLSourceUpdate.h>
 
 

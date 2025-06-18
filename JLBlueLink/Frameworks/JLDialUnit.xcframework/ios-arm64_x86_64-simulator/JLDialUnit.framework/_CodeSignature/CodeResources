@@ -12,9 +12,21 @@
 		<data>
 		kduOIsvKG9oOwJR5cZFVR744ZP0=
 		</data>
+		<key>Headers/JLDialSourceModel.h</key>
+		<data>
+		eIkUWVijyig9VgWIRPImfF9A2DM=
+		</data>
 		<key>Headers/JLDialUnit.h</key>
 		<data>
-		lUnWwYIcNhVsGM+41/qhdBJ67ag=
+		lDdkEIa40U/+f8NpGLO6SJHK/ZI=
+		</data>
+		<key>Headers/JLDialUnitMgr.h</key>
+		<data>
+		HVAyMI+pOnO31WtTmo5j49DHjEk=
+		</data>
+		<key>Headers/JLSourceUpdate.h</key>
+		<data>
+		gFCkm0vIO2ZW1DtpnDS6m1MI+yQ=
 		</data>
 		<key>Headers/ZZArchive.h</key>
 		<data>
@@ -38,11 +50,11 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		R70Z41FRsBYbx1e26Y0t0Kzrhnc=
+		eK77lfYvWAMc98m07ddd+3W0cpM=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
-		haAOzXj7TWZC6D2saaEC/Qq8o/s=
+		X9AQ9UbZdsaQnmASvtGbwRKrbwY=
 		</data>
 	</dict>
 	<key>files2</key>
@@ -69,15 +81,48 @@
 			tbux7Dz4wdT+oqHrgs9sZiQYnpSqKu9X0iKE/ZuhcNA=
 			</data>
 		</dict>
+		<key>Headers/JLDialSourceModel.h</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			eIkUWVijyig9VgWIRPImfF9A2DM=
+			</data>
+			<key>hash2</key>
+			<data>
+			OcwV19AMXbyLPjp7/nLR+O/wnumr3eppJtpyJ7JzVrw=
+			</data>
+		</dict>
 		<key>Headers/JLDialUnit.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			lUnWwYIcNhVsGM+41/qhdBJ67ag=
+			lDdkEIa40U/+f8NpGLO6SJHK/ZI=
 			</data>
 			<key>hash2</key>
 			<data>
-			8r+85ntVD24xS1OVs0U8tg4686B3FBGFiwjd4oOeWVg=
+			H3VhMgaLiZwlRDQxjabXw2Jsw7KjIKg2P6SjQ69ztiA=
+			</data>
+		</dict>
+		<key>Headers/JLDialUnitMgr.h</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			HVAyMI+pOnO31WtTmo5j49DHjEk=
+			</data>
+			<key>hash2</key>
+			<data>
+			Thnbp1/qFqKEPQFToE9yBoTdpgeoFujQEZ7fFJo/z3Q=
+			</data>
+		</dict>
+		<key>Headers/JLSourceUpdate.h</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			gFCkm0vIO2ZW1DtpnDS6m1MI+yQ=
+			</data>
+			<key>hash2</key>
+			<data>
+			cJV9DTlK3k4aIGNCEn3CpdQiCT5stcM6cNdC95AC39I=
 			</data>
 		</dict>
 		<key>Headers/ZZArchive.h</key>
@@ -139,11 +184,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			haAOzXj7TWZC6D2saaEC/Qq8o/s=
+			X9AQ9UbZdsaQnmASvtGbwRKrbwY=
 			</data>
 			<key>hash2</key>
 			<data>
-			lmpmKUiDLVvkdOZJgPoCwrM6YfjtubaP5o7VY8q/jxE=
+			XvC1qrDmDLbId8N8voUZDEjYELULS2EUMos/IW53IuU=
 			</data>
 		</dict>
 	</dict>

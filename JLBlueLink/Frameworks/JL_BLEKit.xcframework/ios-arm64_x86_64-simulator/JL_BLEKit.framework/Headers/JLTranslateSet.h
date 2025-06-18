@@ -59,6 +59,8 @@ typedef void(^JLTranslateGetCacheInfoBlock)(JL_CMDStatus status,JLTranslateAudio
 /// 翻译交互 API
 @interface JLTranslateSet : ECOneToMorePtl
 
+@property(nonatomic, assign)NSTimeInterval cmdMaxTime;
+
 /// 获取翻译模式
 /// - Parameters:
 ///   - manager: 设备对象

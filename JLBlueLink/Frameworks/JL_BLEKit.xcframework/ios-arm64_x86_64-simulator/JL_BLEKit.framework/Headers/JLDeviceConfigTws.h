@@ -21,6 +21,11 @@ NS_ASSUME_NONNULL_BEGIN
 /// Voice translation
 @property(nonatomic,assign,readonly)BOOL isSupportTranslate;
 
+/// 是否使用A2DP播放
+/// 翻译耳机功能扩展
+/// is use A2DP to play
+@property(nonatomic,assign,readonly)BOOL isUseA2DP;
+
 @end
 
 NS_ASSUME_NONNULL_END
