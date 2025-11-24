@@ -1,6 +1,6 @@
 # JLBlueLink
 
-[![CI Status](https://img.shields.io/travis/16433934/JLBlueLink.svg?style=flat)](https://travis-ci.org/16433934/JLBlueLink)
+[![CI](https://github.com/EzioChen/JLBlueLink/actions/workflows/ci.yml/badge.svg)](https://github.com/EzioChen/JLBlueLink/actions/workflows/ci.yml)
 [![Version](https://img.shields.io/cocoapods/v/JLBlueLink.svg?style=flat)](https://cocoapods.org/pods/JLBlueLink)
 [![License](https://img.shields.io/cocoapods/l/JLBlueLink.svg?style=flat)](https://cocoapods.org/pods/JLBlueLink)
 [![Platform](https://img.shields.io/cocoapods/p/JLBlueLink.svg?style=flat)](https://cocoapods.org/pods/JLBlueLink)

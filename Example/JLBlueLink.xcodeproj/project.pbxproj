@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1D5722652ED4334F00E80750 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D5722642ED4334F00E80750 /* SceneDelegate.swift */; };
 		36C9BD3251436A3A894FB0D2 /* Pods_JLBlueLink_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B57DA686A029DCB40F2BA5B5 /* Pods_JLBlueLink_Tests.framework */; };
 		3D6B42B3BD1CB906910A70CF /* Pods_JLBlueLink_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8B82E49AD875C2AA1373D8D6 /* Pods_JLBlueLink_Example.framework */; };
 		607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD51AFB9204008FA782 /* AppDelegate.swift */; };
@@ -30,6 +31,7 @@
 /* Begin PBXFileReference section */
 		0E4640B12233945A24EB9C25 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		1D490BE12D1C00FA002396B1 /* libc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++.tbd"; path = "usr/lib/libc++.tbd"; sourceTree = SDKROOT; };
+		1D5722642ED4334F00E80750 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		287346569A35ADA2D75E5AFA /* Pods-JLBlueLink_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JLBlueLink_Example.release.xcconfig"; path = "Target Support Files/Pods-JLBlueLink_Example/Pods-JLBlueLink_Example.release.xcconfig"; sourceTree = "<group>"; };
 		4F96CF1225226141526B0CA9 /* JLBlueLink.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = JLBlueLink.podspec; path = ../JLBlueLink.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		5AFD64A0A263F8D68E9A9CC3 /* Pods-JLBlueLink_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JLBlueLink_Example.debug.xcconfig"; path = "Target Support Files/Pods-JLBlueLink_Example/Pods-JLBlueLink_Example.debug.xcconfig"; sourceTree = "<group>"; };
@@ -106,6 +108,7 @@
 			isa = PBXGroup;
 			children = (
 				607FACD51AFB9204008FA782 /* AppDelegate.swift */,
+				1D5722642ED4334F00E80750 /* SceneDelegate.swift */,
 				607FACD71AFB9204008FA782 /* ViewController.swift */,
 				607FACD91AFB9204008FA782 /* Main.storyboard */,
 				607FACDC1AFB9204008FA782 /* Images.xcassets */,
@@ -303,7 +306,13 @@
 				"${BUILT_PRODUCTS_DIR}/RxSwift/RxSwift.framework",
 				"${BUILT_PRODUCTS_DIR}/SnapKit/SnapKit.framework",
 				"${PODS_XCFRAMEWORKS_BUILD_DIR}/JLBlueLink/JLBmpConvertKit.framework/JLBmpConvertKit",
+				"${PODS_XCFRAMEWORKS_BUILD_DIR}/JLBlueLink/JLDialUnit.framework/JLDialUnit",
+				"${PODS_XCFRAMEWORKS_BUILD_DIR}/JLBlueLink/JLLogHelper.framework/JLLogHelper",
 				"${PODS_XCFRAMEWORKS_BUILD_DIR}/JLBlueLink/JLPackageResKit.framework/JLPackageResKit",
+				"${PODS_XCFRAMEWORKS_BUILD_DIR}/JLBlueLink/JL_AdvParse.framework/JL_AdvParse",
+				"${PODS_XCFRAMEWORKS_BUILD_DIR}/JLBlueLink/JL_BLEKit.framework/JL_BLEKit",
+				"${PODS_XCFRAMEWORKS_BUILD_DIR}/JLBlueLink/JL_HashPair.framework/JL_HashPair",
+				"${PODS_XCFRAMEWORKS_BUILD_DIR}/JLBlueLink/JL_OTALib.framework/JL_OTALib",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
@@ -314,7 +323,13 @@
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxSwift.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SnapKit.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/JLBmpConvertKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/JLDialUnit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/JLLogHelper.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/JLPackageResKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/JL_AdvParse.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/JL_BLEKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/JL_HashPair.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/JL_OTALib.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -352,6 +367,7 @@
 			files = (
 				607FACD81AFB9204008FA782 /* ViewController.swift in Sources */,
 				607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */,
+				1D5722652ED4334F00E80750 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -420,10 +436,10 @@
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
-				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = arm64;
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = "$(inherited)";
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -477,7 +493,7 @@
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = arm64;
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = "$(inherited)";
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
@@ -500,7 +516,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = J8GU9SL7NG;
-				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = arm64;
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = "$(inherited)";
 				INFOPLIST_FILE = JLBlueLink/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -518,7 +534,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = J8GU9SL7NG;
-				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = arm64;
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = "$(inherited)";
 				INFOPLIST_FILE = JLBlueLink/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";

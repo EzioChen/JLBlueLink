@@ -24,7 +24,9 @@ typedef NS_ENUM(NSUInteger, FlashDialOperationType) {
     ///< 激活自定义表盘（设置表盘背景）
     FlashDialOperationTypeActivateCustom,
     ///< 获取表盘背景
-    FlashDialOperationTypeGetBackground
+    FlashDialOperationTypeGetBackground,
+    /// 通知表盘背景变更
+    FlashDialOperationTypeNoteBackground
 };
 
 /// 设备 Flash 操作

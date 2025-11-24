@@ -1,0 +1,55 @@
+name: CI
+
+on:
+  push:
+    branches: [ "main", "master" ]
+    tags: [ "v*" ]
+  pull_request:
+    branches: [ "main", "master" ]
+
+jobs:
+  build:
+    runs-on: macos-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Show Xcode version
+        run: |
+          xcodebuild -version
+          sw_vers
+
+      - name: Setup Ruby
+        uses: ruby/setup-ruby@v1
+        with:
+          ruby-version: '3.3'
+          bundler-cache: true
+
+      - name: Install CocoaPods
+        run: gem install cocoapods
+
+      - name: Cache Pods
+        uses: actions/cache@v4
+        with:
+          path: Example/Pods
+          key: ${{ runner.os }}-pods-${{ hashFiles('Example/Podfile.lock') }}
+          restore-keys: |
+            ${{ runner.os }}-pods-
+
+      - name: Pod install
+        run: pod install --project-directory=Example
+
+      - name: Build Example (iOS Simulator)
+        run: |
+          xcodebuild \
+            -workspace Example/JLBlueLink.xcworkspace \
+            -scheme JLBlueLink-Example \
+            -sdk iphonesimulator \
+            -destination 'platform=iOS Simulator,name=iPhone 15,OS=latest' \
+            build | xcpretty
+        env:
+          NSUnbufferedIO: YES
+
+      - name: Pod lib lint
+        run: pod lib lint --allow-warnings --verbose

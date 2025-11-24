@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'JLBlueLink'
-  s.version          = '1.1.0'
+  s.version          = '1.2.0'
   s.summary          = 'Library for Jieli bluetooth device link with iOS.'
 
   s.description      = <<-DESC
@@ -31,14 +31,7 @@ TODO: Add long description of the pod here.
   s.vendored_frameworks = 'JLBlueLink/Frameworks/*.xcframework'
 
   s.pod_target_xcconfig = {
-    'OTHER_LDFLAGS' => '-ObjC',
-    # 将 arm64 从模拟器的架构中排除（适用于 Intel Mac）
-    'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64'
-  }
-  
-  s.user_target_xcconfig = {
-    'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64'
+    'OTHER_LDFLAGS' => '-ObjC'
   }
 
 end
-

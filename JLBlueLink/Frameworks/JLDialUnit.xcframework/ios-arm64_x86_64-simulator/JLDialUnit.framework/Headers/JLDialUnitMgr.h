@@ -24,6 +24,9 @@ NS_ASSUME_NONNULL_BEGIN
 /// 当前使用的表盘文件
 @property (nonatomic,strong)JLDialSourceModel *currentFileSource;
 
+/// 当前使用的表盘背景
+@property (nonatomic,strong)JLDialSourceModel *_Nullable currentBackground;
+
 /// 初始化
 /// - Parameters:
 ///   - mgr: 蓝牙管理对象

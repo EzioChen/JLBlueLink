@@ -223,7 +223,7 @@ typedef void (^JL_OTA_RESULT)(uint8_t status, uint8_t sn, NSData *__nullable dat
 
 /// 设置最大丢包次数
 /// - Parameter count: 次数
-/// default: 2
+/// default: 10
 - (void)maxLostCount:(int)count;
 
 /// 设置超时时间

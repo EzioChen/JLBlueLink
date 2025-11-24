@@ -420,6 +420,8 @@ typedef NS_ENUM(UInt8,JL_ReverberationType) {
 /*--- File INFO ---*/
 ///当前文件传输句柄
 @property (assign,nonatomic) JL_FileHandleType        currentFileHandleType;
+///当前文件所存放的位置
+@property (assign,nonatomic,readonly) JL_CardType     currentCardType;
 ///文件分包传输是否支持crc16方式
 @property (assign,nonatomic) JL_FileSubcontractTransferCrc16Type fileSubcontractTransferCrc16Type;
 ///是否以新的方式读取固件文件
