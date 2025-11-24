@@ -20,9 +20,10 @@ TODO: Add long description of the pod here.
   s.author           = { 'EzioChan' => 'chenguanjie@zh-jieli.com' }
   s.source           = { :git => 'https://github.com/EzioChen/JLBlueLink.git', :tag => s.version.to_s }
 
-  s.ios.deployment_target = '10.0'
+  s.ios.deployment_target = '12.0'
 
   s.source_files = 'JLBlueLink/Classes/**/*.{h,m,mm,swift}'
+  s.swift_versions = ['4.0', '5.0']
   
   s.frameworks = 'UIKit', 'Foundation', 'CoreBluetooth'
   
@@ -31,7 +32,12 @@ TODO: Add long description of the pod here.
   s.vendored_frameworks = 'JLBlueLink/Frameworks/*.xcframework'
 
   s.pod_target_xcconfig = {
-    'OTHER_LDFLAGS' => '-ObjC'
+    'OTHER_LDFLAGS' => '-ObjC',
+    'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64'
+  }
+  
+  s.user_target_xcconfig = {
+    'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64'
   }
 
 end
